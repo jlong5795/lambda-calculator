@@ -1,11 +1,12 @@
 import React from "react";
 
-export const NumberButton = props => {
+const NumberButton = props => {
   return (
     <button className='color_button'>
-      {props.numbers}
+      {props.text}
     </button>
   );
 };
 
+export default NumberButton;
 //Display a button element rendering the data being passed down from the parent container on props
